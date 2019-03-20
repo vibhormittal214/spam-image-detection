@@ -1,5 +1,5 @@
 # spam-image-detection
-Please read this before continuing
+
 NFSW(Not suitable for work-spam images) andd SFW(Suitable for work) image detection
 This repository contains python code for identifying spam images.
 
