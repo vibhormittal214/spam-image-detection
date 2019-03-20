@@ -5,10 +5,11 @@ This repository contains python code for identifying spam images.
 
 You can see the video attached to see how the image is being predicted
 
-Note- First unzip createdmodel and add the main file(createdmodel.hdf5) to the main directory-i.e where the directory where the code is saved
+Note- First unzip createdmodel and add the main file(createdmodel.hdf5) to the main directory-i.e where the directory where the code is saved.
+
 Conatins createdmodel.hdf5 which has the saved trained model and you can directly use it to test the image. Simply open spam_image_predict.py and pass the 'image_name.format' in Image.open()
 
-Spam Images- Images that may contain adult content, Nuditity, or violence images(These images are called NOT SUITABLE FOR WORK)
+Spam Images- Images that may contain adult content, Nuditity, or violence images(These images are called NOT SUITABLE FOR WORK). Download the spam images(NFSW IMAGE) and save to directory containing the code and test the model
 
 Not spam images- Those are suitable for work
 
