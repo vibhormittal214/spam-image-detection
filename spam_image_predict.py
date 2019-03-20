@@ -19,7 +19,7 @@ if K.image_data_format() == 'channels_last':
 model = load_model('createdmodel.hdf5')
 type_of_image = ['spam image-Shows Nuditity', 'partial spam image', 'spam image-shows adult image', 'spam image-violence', 'Not a spam image']
 def main():
-    img = Image.open('spam2.jpg')
+    img = Image.open('violence1.jpg')
     img1 = prepareimg(img)
     predict(img1)
     
